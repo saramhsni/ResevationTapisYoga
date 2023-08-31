@@ -1,0 +1,88 @@
+html, body{
+    margin: 0px;
+    height: 100%;
+    background-image:url(https://getwallpapers.com/wallpaper/full/5/5/9/448995.jpg);
+    background-size: cover;
+}
+h1, h2{
+    text-align: center;
+    color: #4d4b4b;
+}
+.tapis{
+    display: flex;
+    flex-wrap: wrap;
+}
+.dates{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.date-btn {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #ccc;
+    cursor: pointer;
+    text-align: center;
+}
+  
+.date-btn.selected {
+    background-color: #f00;
+    color: #fff;
+}
+  
+.tapis-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+  
+.tapis-item {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background-color: #ccc;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+  
+.tapis-item.selected {
+    background-color: #0f0;
+}
+  
+#reserver-btn{
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: rgb(7, 147, 9);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+  
+#reserver-btn:hover {
+    background-color: #d00;
+    
+}
+.reservation-container{
+    display: flex;
+    justify-content: center;
+}
+.annuler-btn {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: red;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.annuler-btn:hover {
+  background-color: #777;
+}
+.tapis-item.reserved{
+  background-color: red; 
+}
